@@ -1,0 +1,682 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+.expat{
+    display: flex;
+    gap: 20px;
+    background-color: white;
+    padding: 10px;
+}
+.expat img{
+    width: 30%;
+}
+.recherche{
+    display: flex;
+    width: 70%;
+    gap: 20px;
+    align-items: center;
+}
+.barrech{
+    width: 60%;
+    display: flex;
+}
+.barrech input{
+  width: 90%;
+  padding: 10px;
+  padding-left: 30px; 
+}
+.barrech i{
+    background-color: #3c3839;
+    color: white;
+    padding: 12px;
+    position: relative;
+    right: 3px;
+    border: 10%;
+    bottom: 0px;
+    top: 0px;
+}
+
+.button span{
+    background-color: #f29541;
+    color: white;
+    border-radius: 5px;
+    padding: 12px;
+}
+
+.lien a{
+    text-decoration: none;
+    color: black;
+}
+
+.case{
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+.titre{
+    font-size: 20px;
+    text-align: center;
+   padding: 30px;
+}
+.grid1{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 18rem);
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+
+}
+.case1{
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    padding: 8px;
+    font-size: 15px;
+}
+.icone{
+    text-align: center;
+    position: relative;
+    bottom: 20px;
+}
+.icone i{
+        border: 1px solid;
+        border-radius: 50%;
+        background-color: #f29541;
+        color: white;
+        padding: 10px;
+}
+.case1 ul{
+    list-style-type: none;
+    font-size: 15px;
+}
+.case1 .pied{
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+.pied .p{
+    color: orangered;
+    font-size: 18px;
+}
+.part1 .t1{
+    text-align: center;
+    font-size: 18px;
+   
+}
+.pied .span{
+    color: #616161;
+    background-color: #eee;
+    border-radius: 50%;
+    padding: 2px;
+}
+
+
+.case2{
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 8px;
+
+}
+.case2 ul{
+    list-style-type: none;
+    font-size: 15px;
+}
+.case2 .pied{
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+.pied .p{
+    color: orangered;
+}
+.part2 .t1{
+    text-align: center;
+    font-size: 18px;
+   
+}
+
+.case3{
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    padding: 8px;
+    font-size: 15px;
+
+}
+.case3 ul{
+    list-style-type: none;
+    font-size: 15px;
+}
+.case3 .pied{
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+.pied .p{
+    color: orangered;
+}
+.part3 .t1{
+    text-align: center;
+    font-size: 18px;
+   
+}
+
+.case4{
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    padding: 8px;
+    font-size: 15px;
+}
+.case4 ul{
+    list-style-type: none;
+    font-size: 15px;
+}
+.case4 .pied{
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+.pied .p{
+    color: orangered;
+}
+
+.part4 .t1{
+    text-align: center;
+    font-size: 18px;
+   
+}
+
+.grid2{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 18rem);
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+
+}
+.case5{
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    padding: 8px;
+    font-size: 15px;
+
+}
+.case5 ul{
+    list-style-type: none;
+    font-size: 15px;
+}
+.case5 .pied{
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+.pied .p{
+    color: orangered;
+}
+
+.part5 .t1{
+    text-align: center;
+    font-size: 18px;
+   
+}
+
+.case6{
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 8px;
+}
+.case6 ul{
+    list-style-type: none;
+    font-size: 15px;
+}
+.case6 .pied{
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+.pied .p{
+    color: orangered;
+}
+.part6 .t1{
+    text-align: center;
+    font-size: 18px;
+   
+}
+
+.case7{
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    padding: 8px;
+    font-size: 15px;
+}
+.case7 ul{
+    list-style-type: none;
+    font-size: 15px;
+}
+.case7 .pied{
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+.pied .p{
+    color: orangered;
+}
+
+.part7 .t1{
+    text-align: center;
+    font-size: 18px;
+   
+}
+.case8{
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    padding: 8px;
+    font-size: 15px;
+}
+.case8 ul{
+    list-style-type: none;
+    font-size: 15px;
+}
+.case8 .pied{
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+.pied .p{
+    color: orangered;
+}
+
+.part8 .t1{
+    text-align: center;
+    font-size: 18px;
+   
+}
+
+
+.grid3{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 18rem);
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+
+}
+.case9{
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    padding: 8px;
+    font-size: 15px;
+
+}
+.case9 ul{
+    list-style-type: none;
+    font-size: 15px;
+}
+.case9 .pied{
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+.pied .p{
+    color: orangered;
+}
+
+.part9 .t1{
+    text-align: center;
+    font-size: 18px;
+   
+}
+
+.case10{
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 8px;
+}
+.case10 ul{
+    list-style-type: none;
+    font-size: 15px;
+}
+.case10 .pied{
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+.pied .p{
+    color: orangered;
+}
+.part10 .t1{
+    text-align: center;
+    font-size: 18px;
+   
+}
+
+.case11{
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    padding: 23px;
+    font-size: 15px;
+}
+.case11 ul{
+    list-style-type: none;
+    font-size: 15px;
+}
+.case11 .pied{
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    padding: 10px;
+}
+.icone11{
+    text-align: center;
+    position: relative;
+    bottom: 45px;
+}
+.icone11 i{
+    border: 1px solid;
+    border-radius: 50%;
+    background-color: #f29541;
+    color: white;
+    padding: 10px;
+}
+.pied .p{
+    color: orangered;
+}
+
+.part11 .t1{
+    text-align: center;
+    font-size: 18px;
+   
+}
+.case12{
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    padding: 8px;
+    font-size: 15px;
+}
+.case12 ul{
+    list-style-type: none;
+    font-size: 15px;
+}
+.case12 .pied{
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+.pied .p{
+    color: orangered;
+}
+.part12 .t1{
+    text-align: center;
+    font-size: 18px;
+   
+}
+
+
+                                                                       /* footer */
+.footer1{
+    background-color: #112e46;
+    padding: 10px;
+}
+.u1{
+    list-style-type: none;
+    font-size: 15px;
+    color: white;
+}
+
+.u2{
+    color: white;
+    list-style-type: none;
+    font-size: 18px;
+}
+
+.u3{
+    color: white;
+    list-style-type: none;
+    font-size: 18px;
+}
+.li2 {
+    color: white;
+}
+
+.li3{
+    color: white;
+}
+.icon{
+    color: white;
+}
+.face i{
+    background-color: blue;
+    padding: 10px;
+    border-radius: 50%;
+}
+.twit i{
+    background-color: rgb(156, 194, 250);
+    padding: 10px;
+    border-radius: 50%;
+}
+.ins i{
+    background-color: purple;
+    padding: 10px;
+    border-radius: 50%;
+}
+.link i{
+    background-color: blue;
+    padding: 10px;
+    border-radius: 50%;
+}
+.parti{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+
+}
+.li1{
+    display: flex;
+    gap: 10px;
+}
+.u1{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.u2{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.u3{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.li2{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+   justify-content: center;
+   width: 25%;
+}
+.li2 span{
+    border-bottom: 1px solid white;
+    text-align: center;
+    padding: 10px;
+}
+.li2 img{
+    width: 40%;
+    margin: auto;
+}
+.li3{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;  
+    width: 25%;
+}
+.li3 span{
+    border-bottom: 1px solid white;
+    text-align: center;
+    padding: 10px;
+}
+.icon{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.sol{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    padding-top: 15px;
+    width: 20%;
+    text-align: center;
+}
+.sol .p{
+    border-bottom: 1px solid;
+    padding: 10px;
+}
+.so{
+    display: flex;
+    gap: 20px;
+    padding: 15px;
+    justify-content: space-between;
+}
+.fin{
+    color: white;
+    background-color: #1f2324;
+    padding: 2px;
+    }
+.fin p{
+  width: 30%;
+  text-align: center;
+}
+
+@media screen and (max-width:800px) {
+    
+    .expat{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 10px;
+    }
+    .expat img{
+        width: 60%;
+        text-align: center;
+    }
+    .recherche{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .barrech{
+        width: 100%;
+        display: flex;
+       }
+    .barrech input{
+      width: 90%;
+      padding: 10px;
+      padding-left: 30px; 
+    }
+    .parti{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        gap: 10px;
+    
+    }
+ 
+.li1{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.u1{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.u2{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.u3{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.li2{
+    display: flex;
+    flex-direction: column;
+     width: 50%;
+}
+
+.li2 img{
+    width: 30%;
+    margin: auto;
+}
+.li3{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;  
+    /* width: 50%; */
+}
+
+.icon{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+  
+.sol{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+   
+}
+.sol .p{
+    padding: 5px;
+    width: 80%;
+}
+
+.so{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 10px;
+}
+
+.fin p{
+  width: 100%;
+  text-align: center;
+}
+}
+
